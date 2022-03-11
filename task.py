@@ -19,9 +19,9 @@ def calculate_current_age(current_date, current_month, current_year,
 
 
 current_date, current_month, current_year = map(int, input('Please enter your current date in same line and between '
-                                                           'space: ').split('/'))
+                                                           'space: ').split())
 birth_date, birth_month, birth_year = map(int, input(
-    'Please enter your birth date in same line and between space: ').split('/'))
+    'Please enter your birth date in same line and between space: ').split())
 
 calculate_current_age(current_date, current_month, current_year,
                       birth_date, birth_month, birth_year)
